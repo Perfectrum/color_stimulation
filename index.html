@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js"></script>
+	</head>
+
+	<body onload="init()">
+		
+		<div class="layout">
+			
+			<div id="left">
+				<div class="circle"></div>
+			</div>
+			
+			<div id="center">
+
+				<input id="color_picker" type="color" value="#ff0000" onchange="choose_color()">
+
+				<div id="freq">
+					<input class="button freq" id="freq_up" type="button" value="▲", onclick="update_freq(this.id);">
+					<input id="freq_value" class="freq" onchange="update_freq(this.id)">
+					<input class="button freq" id="freq_down" type="button" value="▼", onclick="update_freq(this.id);">
+				</div>
+
+				<input class="button" id="start_button" type="button" value="Старт" onclick="push_button()">
+
+			</div>
+			
+			<div id="right">
+				<div class="circle"></div>
+			</div>
+		
+		</div>
+
+	</body>
+
+</html>
