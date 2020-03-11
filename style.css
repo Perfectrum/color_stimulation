@@ -37,7 +37,7 @@ html, body {margin:0;padding:0;}
 		width: 8%;
 		height: 10%;
 		left: 46%;
-		font-size: 100px;
+		font-size: 6vh;
 	}
 
 	#freq_up {
@@ -60,7 +60,7 @@ html, body {margin:0;padding:0;}
 		height: 15%;
 		left: 40%;
 		bottom: 5%;
-		font-size: 50px;
+		font-size: 6vh;
 	}
 
 	.circle {
