@@ -25,8 +25,9 @@ function update_freq(id){
 		freq+= 1;
 	else if(id == "freq_down")
 		freq-= 1;
-	else if (id == "freq_value")
-		freq = parseFloat(this.value);
+	else if (id == "freq_value") {
+		freq = parseFloat(document.getElementById(id).value);
+	}
 
 	if(freq < 0) {
 		freq = 1;
@@ -58,4 +59,3 @@ function show() {
 		setTimeout(show,t[i]);
 	}
 }
-z
