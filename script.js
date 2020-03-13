@@ -21,10 +21,10 @@ function choose_color() {
 
 function update_freq(id){
 
-	if(id == "freq_up")
-		freq+= 1;
-	else if(id == "freq_down")
+	if(id == "freq_left")
 		freq-= 1;
+	else if(id == "freq_right")
+		freq+= 1;
 	else if (id == "freq_value") {
 		freq = parseFloat(document.getElementById(id).value);
 	}
