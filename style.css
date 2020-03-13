@@ -27,7 +27,6 @@ html, body {margin:0;padding:0;}
 		background-color: #ff0000;
 	}
 
-
 	@media screen and (orientation:portrait) {
 		.circle {
 			width: 25vw;
@@ -64,18 +63,21 @@ html, body {margin:0;padding:0;}
 	#freq_value {
 		text-align: center;
 		height: 100%;
-		left: 35%;
-		width: 30%;
+		width: 20%;
+
+		box-sizing: border-box;
 	}
 
 	#freq_left {
+		float: left;
 		left: 0;
-		width: 30%;
+		width: 40%;
 		height: 100%;
 	}
 
 	#freq_right{
+		float: right;
 		bottom: 50%;
-		width: 30%;
+		width: 40%;
 		height: 100%;
 	}
