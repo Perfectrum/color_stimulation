@@ -6,68 +6,22 @@ html, body {margin:0;padding:0;}
 	}
 	
 	#left {
-		width: 45%;
+		width: 50%;
 		height: 100vh;
 		float: left;
-	}
-	
-	#center {
-		width: 10%;
-		height: 100vh;
-		float: left;
-		background: #222222;
 	}
 
-	#color_picker {
-		position: absolute;
-		left: 46%;
-		width: 8%;
-		height: 10%;
-		bottom: 30%;		
-	}
-	
 	#right {
-		width: 45%;
+		width: 50%;
 		height: 100vh;
 		float: right;
-	}
-
-	.freq {
-		position: absolute;
-		width: 8%;
-		height: 10%;
-		left: 46%;
-		font-size: 6vh;
-	}
-
-	#freq_up {
-		bottom: 70%;
-	}
-
-	#freq_value {
-		text-align: center;
-		width: 8%;
-		bottom: 60%;
-	}
-
-	#freq_down{
-		bottom: 50%;
-	}
-
-	#start_button {
-		position: absolute;
-		width: 20%;
-		height: 15%;
-		left: 40%;
-		bottom: 5%;
-		font-size: 6vh;
 	}
 
 	.circle {
 		position: relative;
 		border-radius: 50%;
-		width: 70vh;
-		height: 70vh;
+		width: 75vh;
+		height: 75vh;
 		top: 15vh;
 		margin: auto;
 		background-color: #ff0000;
@@ -80,4 +34,48 @@ html, body {margin:0;padding:0;}
 			height: 25vw;
 			top: 60vw;
 		}
+	}
+
+	#start_button {
+		position: absolute;
+		width: 20%;
+		height: 15%;
+		left: 40%;
+		bottom: 5%;
+		font-size: 6vh;
+	}
+
+	#color_picker {
+		position: absolute;
+		left: 46%;
+		width: 8%;
+		height: 10%;
+		bottom: 25%;		
+	}
+
+	#freq {
+		position: absolute;
+		height: 10vh;
+		width: 20%;
+		left: 40%;
+		bottom: 80%;
+	}
+
+	#freq_value {
+		text-align: center;
+		height: 100%;
+		left: 35%;
+		width: 30%;
+	}
+
+	#freq_left {
+		left: 0;
+		width: 30%;
+		height: 100%;
+	}
+
+	#freq_right{
+		bottom: 50%;
+		width: 30%;
+		height: 100%;
 	}
