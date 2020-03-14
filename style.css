@@ -46,7 +46,7 @@ html, body {margin:0;padding:0;}
 		height: 15%;
 		left: 40%;
 		bottom: 5%;
-		font-size: 45px;
+		font-size: 40px;
 	}
 
 	#color_picker {
@@ -71,7 +71,7 @@ html, body {margin:0;padding:0;}
 		height: 100%;
 		width: 20%;
 		box-sizing: border-box;
-		font-size: 45px;
+		font-size: 40px;
 		color: white;
 	}
 
@@ -80,7 +80,7 @@ html, body {margin:0;padding:0;}
 		left: 0;
 		width: 40%;
 		height: 100%;
-		font-size: 45px;
+		font-size: 40px;
 	}
 
 	#freq_right{
@@ -88,5 +88,5 @@ html, body {margin:0;padding:0;}
 		bottom: 50%;
 		width: 40%;
 		height: 100%;
-		font-size: 45px;
+		font-size: 40px;
 	}
