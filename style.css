@@ -20,19 +20,24 @@ html, body {margin:0;padding:0;}
 	.circle {
 		position: relative;
 		border-radius: 50%;
-		width: 75vh;
 		height: 75vh;
+		width: 75vh;
 		top: 15vh;
 		margin: auto;
 		background-color: #ff0000;
 	}
 
-	@media screen and (orientation:portrait) {
+	@media screen and (max-aspect-ratio: 8/5) {
 		.circle {
-			width: 25vw;
-			height: 25vw;
-			top: 60vw;
+			width: 40vw;
+			height: 40vw;
+			top: 30vh;
 		}
+	}
+
+	input {
+		color: white;
+		background: #000000;
 	}
 
 	#start_button {
@@ -41,7 +46,7 @@ html, body {margin:0;padding:0;}
 		height: 15%;
 		left: 40%;
 		bottom: 5%;
-		font-size: 6vh;
+		font-size: 45px;
 	}
 
 	#color_picker {
@@ -49,7 +54,8 @@ html, body {margin:0;padding:0;}
 		left: 46%;
 		width: 8%;
 		height: 10%;
-		bottom: 25%;		
+		bottom: 25%;
+		box-sizing: border-box;
 	}
 
 	#freq {
@@ -64,8 +70,8 @@ html, body {margin:0;padding:0;}
 		text-align: center;
 		height: 100%;
 		width: 20%;
-
 		box-sizing: border-box;
+		font-size: 45px;
 	}
 
 	#freq_left {
@@ -73,6 +79,7 @@ html, body {margin:0;padding:0;}
 		left: 0;
 		width: 40%;
 		height: 100%;
+		font-size: 45px;
 	}
 
 	#freq_right{
@@ -80,4 +87,5 @@ html, body {margin:0;padding:0;}
 		bottom: 50%;
 		width: 40%;
 		height: 100%;
+		font-size: 45px;
 	}
