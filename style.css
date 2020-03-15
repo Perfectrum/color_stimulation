@@ -45,7 +45,7 @@ html, body {margin:0;padding:0;}
 		width: 20%;
 		height: 15%;
 		left: 40%;
-		bottom: 3%;
+		bottom: 2%;
 		font-size: 45px;
 	}
 
@@ -72,25 +72,25 @@ html, body {margin:0;padding:0;}
 		height: 100%;
 		width: 40%;
 		box-sizing: border-box;
-		font-size: 45px;
+		font-size: 40px;
 		left: 30%;
 	}
 
 	#freq_left {
 		float: left;
 		left: 0;
-		width: 29%;
+		width: 28%;
 		height: 100%;
-		font-size: 45px;
+		font-size: 40px;
 	}
 
 	#freq_right{
 		float: right;
 		bottom: 51%;
-		width: 29%;
+		width: 28%;
 		height: 100%;
-		font-size: 45px;
-		left: 70%;
+		font-size: 40px;
+		left: 72%;
 	}
 
 	input, button { 
