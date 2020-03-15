@@ -72,20 +72,22 @@ html, body {margin:0;padding:0;}
 		width: 40%;
 		box-sizing: border-box;
 		font-size: 45px;
+		left: 30%;
 	}
 
 	#freq_left {
 		float: left;
 		left: 0;
-		width: 30%;
+		width: 29%;
 		height: 100%;
 		font-size: 45px;
 	}
 
 	#freq_right{
 		float: right;
-		bottom: 50%;
-		width: 30%;
+		bottom: 51%;
+		width: 29%;
 		height: 100%;
 		font-size: 45px;
+		left: 70%;
 	}
