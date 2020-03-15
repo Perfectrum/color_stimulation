@@ -45,7 +45,7 @@ html, body {margin:0;padding:0;}
 		width: 20%;
 		height: 15%;
 		left: 40%;
-		bottom: 5%;
+		bottom: 3%;
 		font-size: 45px;
 	}
 
@@ -91,4 +91,10 @@ html, body {margin:0;padding:0;}
 		height: 100%;
 		font-size: 45px;
 		left: 70%;
+	}
+
+	input, button { 
+		-webkit-appearance: none;
+		-moz-appearance:    none;
+		appearance:         none;
 	}
